@@ -66,7 +66,7 @@ async def handle_dm(message: discord.Message):
             if anexos:
                 texto += f"\n{anexos}"
             await canal.send(texto)
-            await message.add_reaction("📨")
+            await message.add_reaction("✉️")
             return
 
     # Permissões do novo canal
